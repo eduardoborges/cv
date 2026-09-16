@@ -51,7 +51,7 @@ async function main() {
     const pdf = await page.pdf({
       format: "A4",
       printBackground: true,
-      margin: { top: "20mm", bottom: "20mm", left: "30mm", right: "20mm" },
+      margin: { top: "18mm", bottom: "18mm", left: "20mm", right: "20mm" },
     });
     await mkdir(outDir, { recursive: true });
     await writeFile(outPath, pdf);

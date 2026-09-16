@@ -2,9 +2,10 @@ const css = `
   :root {
     --v-bg: #ffffff;
     --v-fg: #171717;
-    --v-muted: #737373;
-    --v-border: #eaeaea;
-    --v-accent: #0070f3;
+    --v-text: #262626;
+    --v-muted: #666666;
+    --v-border: #e5e5e5;
+    --v-accent: #0059d6;
   }
   *,
   *::before,
@@ -12,138 +13,111 @@ const css = `
     box-sizing: border-box;
   }
   html {
-    font-size: 10pt;
+    font-size: 9.5pt;
   }
   body {
     margin: 0;
     padding: 0;
     font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
     line-height: 1.55;
-    color: var(--v-fg);
+    color: var(--v-text);
     background: var(--v-bg);
     text-rendering: optimizeLegibility;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
   }
   .resume {
-    margin: 0;
-    width: 100%;
-    hyphens: auto;
-    hyphenate-character: "-";
-    text-align: left;
-    word-spacing: normal;
+    hyphens: manual;
     font-feature-settings: "kern" 1, "liga" 1;
-    letter-spacing: 0;
   }
   .resume h1 {
-    font-size: 13pt;
-    margin: 0 0 0.45rem;
-    padding: 0;
-    font-weight: 600;
-    text-align: center;
-    letter-spacing: -0.025em;
-    line-height: 1.15;
+    font-size: 21pt;
+    margin: 0 0 0.35rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    color: var(--v-fg);
+  }
+  /* Headline e contatos abaixo do nome. */
+  .resume h1 + p {
+    margin: 0 0 0.4rem;
+    color: var(--v-muted);
+    font-size: 8.75pt;
+    line-height: 1.7;
+  }
+  .resume h1 + p strong {
+    font-size: 10.5pt;
+    font-weight: 500;
     color: var(--v-fg);
   }
   .resume h2 {
-    font-size: 11pt;
-    margin: 1.45rem 0 0.5rem;
-    padding: 0 0 0.42rem;
+    font-size: 8.5pt;
+    margin: 1.9rem 0 0.9rem;
+    padding: 0 0 0.4rem;
     border-bottom: 1px solid var(--v-border);
     font-weight: 600;
-    text-transform: none;
-    letter-spacing: -0.025em;
-    text-align: left;
-    orphans: 3;
-    widows: 3;
-    color: var(--v-fg);
-    break-after: avoid;
-    line-height: 1.25;
-  }
-  .resume h2:first-of-type {
-    margin-top: 0.35rem;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    color: var(--v-accent);
+    line-height: 1.2;
   }
   .resume h3 {
     font-size: 10pt;
-    margin: 0.8rem 0 0.2rem;
+    margin: 1.35rem 0 0;
     font-weight: 600;
-    font-style: normal;
-    text-align: left;
-    letter-spacing: -0.015em;
-    break-after: avoid;
-    orphans: 3;
-    widows: 3;
+    letter-spacing: -0.01em;
+    line-height: 1.35;
     color: var(--v-fg);
   }
-  .resume p {
-    margin: 0 0 0.45rem;
-    text-align: left;
-    text-indent: 0;
-    color: #262626;
-  }
-  /* Remove hierarquia de recuo tipo artigo ABNT para cara mais atual de produto. */
-  .resume ul {
-    margin: 0.4rem 0 0.55rem;
-    padding-left: 1.05rem;
-    list-style-position: outside;
-    list-style-type: disc;
-    color: #262626;
-  }
-  .resume li {
-    margin: 0.18rem 0;
-    padding-left: 0.25rem;
-    text-align: left;
-    line-height: 1.55;
-    color: #262626;
-    letter-spacing: 0;
-  }
-  .resume li + li {
+  .resume h2 + h3 {
     margin-top: 0;
   }
-  .resume ul ul {
-    margin-left: 0.85rem;
-    margin-top: 0.35rem;
+  /* Empresa, local e data abaixo do cargo. */
+  .resume h3 + p {
+    margin: 0.1rem 0 0.5rem;
+    font-size: 8.75pt;
+    color: var(--v-muted);
+  }
+  .resume h3 + p strong {
+    font-weight: 500;
+    color: var(--v-text);
+  }
+  .resume p {
+    margin: 0 0 0.65rem;
+  }
+  .resume ul {
+    margin: 0;
+    padding-left: 1.2rem;
+  }
+  .resume li {
+    margin: 0.3rem 0;
+    padding-left: 0.1rem;
+  }
+  .resume li::marker {
+    color: var(--v-muted);
   }
   .resume strong {
     font-weight: 600;
     color: var(--v-fg);
   }
-  /* Bloco inicial (README: h1 seguido de um parágrafo com contato em br). */
-  .resume h1 + p {
-    text-align: center;
-    padding: 0 0 0.2rem;
-    margin-bottom: 0;
-    color: var(--v-muted);
-    font-weight: 500;
-    font-size: 9.25pt;
-    line-height: 1.52;
-    letter-spacing: -0.012em;
+  .resume code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 0.86em;
+    color: var(--v-fg);
   }
-  /* Links bem discretos, estilo marca. */
   .resume a {
     color: var(--v-accent);
     text-decoration: none;
-    border-bottom: 1px solid rgba(0, 112, 243, 0.33);
-    font-weight: 500;
   }
-  /* Melhor uso de marcadores quando o PDF permite. */
   @media print {
-    .resume h2 {
+    .resume h2,
+    .resume h3,
+    .resume h3 + p {
       break-after: avoid;
-      page-break-after: avoid;
     }
-    .resume h3 {
-      break-after: avoid;
-      page-break-after: avoid;
-    }
-    .resume li {
-      break-inside: avoid;
-    }
+    /* Cada experiência fica inteira na mesma página. */
+    .resume ul,
     .resume p {
-      orphans: 3;
-      widows: 3;
-    }
-    .resume ul {
       break-inside: avoid;
     }
   }
@@ -157,7 +131,7 @@ type Props = {
 export function ResumeShell({ markdownHtml, embeddedFontFaces }: Props) {
   const styleBlock = embeddedFontFaces + css;
   return (
-    <html lang="pt-BR">
+    <html lang="en">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
