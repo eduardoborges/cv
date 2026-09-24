@@ -5,7 +5,7 @@ Brazil · +55 85 98210 4039 · [euduardoborges@gmail.com](mailto:euduardoborges@
 
 ## Professional Summary
 
-Staff Software Engineer with 13+ years of experience building mobile, frontend, and platform systems for fintech, banking, crypto, payments, retailtech, solar energy, e-commerce, and law tech products, including 4+ years of commercial React Native work.
+Staff Software Engineer with 13+ years of experience building mobile, frontend, and platform systems for fintech, banking, crypto, payments, retailtech, solar energy, e-commerce, and law tech products, including 7+ years of commercial React Native work.
 
 Most of my work sits between product engineering and technical leadership: React Native, React, TypeScript, GraphQL, frontend architecture, design systems, performance, automated testing, observability, and cloud platforms. On mobile I go down to native code in Objective-C++, Kotlin, and C++ when a React Native bug lives there. I have improved user satisfaction from 3.5 to 4.4, increased frontend delivery efficiency by 40%, helped scale financial platforms to millions of users, and built products used by support, banking, crypto, retail, and legal teams.
 
