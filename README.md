@@ -27,9 +27,11 @@ I maintain use-mask-input (135k weekly downloads) and contribute fixes to React 
 ### Senior Product Engineer, GenAI
 **WealthCounsel, LLC** · Remote · January 2026 - Present
 
-- Build AI agents and product experiences for law tech.
-- Work on frontend architecture, product engineering, and AI-assisted workflows.
-- Collaborate on scalable solutions for legal technology products.
+- Rebuilt a GenAI document processing pipeline as a Turborepo monorepo of AWS Lambdas, with Textract extraction and a Step Functions workflow that calls an AI agent.
+- Built an internal admin app for identity and access management in Vue, TypeScript, TanStack Query, and Storybook.
+- Built a versioned API and a typed client package for a core data service on Lambda, API Gateway, and DynamoDB, with contract snapshot tests in CI.
+- Built a Terraform pipeline for Auth0 that applies each environment in promotion order, and added MFA enforcement at login.
+- Built a design system and homepage components for a consumer site in Vue, Tailwind CSS, and Storybook.
 
 ### Staff Software Engineer, Fintech
 **Solfácil** · São Paulo, Brazil · May 2024 - January 2026
