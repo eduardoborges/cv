@@ -1,13 +1,13 @@
 # Eduardo Borges
 
-**Staff Software Engineer | React Native | React | TypeScript | Mobile and Frontend Architecture**  
+**Staff Software Engineer | React Native Specialist | React | TypeScript | Mobile Architecture**  
 Brazil · +55 85 98210 4039 · [euduardoborges@gmail.com](mailto:euduardoborges@gmail.com) · [linkedin.com/in/euduardoborges](https://www.linkedin.com/in/euduardoborges) · [eduardoborges.dev](https://eduardoborges.dev) · [github.com/eduardoborges](https://github.com/eduardoborges)
 
 ## Professional Summary
 
-Staff Software Engineer with 13+ years of experience building mobile, frontend, and platform systems for fintech, banking, crypto, payments, retailtech, solar energy, e-commerce, and law tech products, including 7+ years of commercial React Native work.
+Staff Software Engineer and React Native specialist with 13+ years of experience, including 7+ years of commercial React Native work. I have built React Native apps since 2018, starting on the 0.5x releases and now on the New Architecture, and I go down to native code in Objective-C++, Kotlin, and C++ when a bug lives there. I have shipped products for fintech, banking, crypto, payments, retailtech, solar energy, e-commerce, and law tech.
 
-Most of my work sits between product engineering and technical leadership: React Native, React, TypeScript, GraphQL, frontend architecture, design systems, performance, automated testing, observability, and cloud platforms. On mobile I go down to native code in Objective-C++, Kotlin, and C++ when a React Native bug lives there. I have improved user satisfaction from 3.5 to 4.4, increased frontend delivery efficiency by 40%, helped scale financial platforms to millions of users, and built products used by support, banking, crypto, retail, and legal teams.
+Most of my work sits between product engineering and technical leadership: React Native, React, TypeScript, GraphQL, frontend architecture, design systems, performance, automated testing, observability, and cloud platforms. I have improved user satisfaction from 3.5 to 4.4, increased frontend delivery efficiency by 40%, helped scale financial platforms to millions of users, and built products used by support, banking, crypto, retail, and legal teams.
 
 I maintain use-mask-input (100k weekly downloads) and contribute fixes to React Native libraries such as React Navigation, react-native-keyboard-controller, and Callstack's liquid-glass.
 
