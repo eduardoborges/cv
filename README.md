@@ -9,7 +9,7 @@ Staff Software Engineer and React Native specialist with 13+ years of experience
 
 Most of my work sits between product engineering and technical leadership: React Native, React, TypeScript, GraphQL, frontend architecture, design systems, performance, automated testing, observability, and cloud platforms. I have improved user satisfaction from 3.5 to 4.4, increased frontend delivery efficiency by 40%, helped scale financial platforms to millions of users, and built products used by support, banking, crypto, retail, and legal teams.
 
-I maintain use-mask-input (100k weekly downloads) and contribute fixes to React Native libraries such as React Navigation, react-native-keyboard-controller, and Callstack's liquid-glass.
+I maintain use-mask-input (135k weekly downloads) and contribute fixes to React Native libraries such as React Navigation, react-native-keyboard-controller, and Callstack's liquid-glass.
 
 ## Projects
 
@@ -112,7 +112,7 @@ I maintain use-mask-input (100k weekly downloads) and contribute fixes to React 
 ### use-mask-input
 
 - Maintainer of `use-mask-input`, a React and Vue hook for input masks that works with React Hook Form and VeeValidate.
-- 670+ GitHub stars and 100k weekly downloads on npm.
+- 680+ GitHub stars and 135k weekly downloads on npm.
 
 ### React Native ecosystem
 
